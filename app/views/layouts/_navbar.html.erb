@@ -8,16 +8,13 @@
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
         </button>
-        <%# Messageboardから↓にすれば良いのか %>
-        <a class="navbar-brand" href="/">Tasklist</a>
+        <a class="navbar-brand" href="/">TaskList</a>
       </div>
       <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
         <ul class="nav navbar-nav navbar-right">
-          <%# 単純にnew_taskに変えれば良いのか %>
           <li><%= link_to  '新規タスクの投稿', new_task_path %></li>
         </ul>
       </div>
     </div>
   </nav>
 </header>
-<%= yield %>
